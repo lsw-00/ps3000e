@@ -7,4 +7,6 @@
 ## Clonen des repos:
 - Repo clonen:
   --> git clone https://github.com/picotech/picosdk-ni-labview-examples.git
-  
+
+## Programm starten:
+Test_ps3000e.vi
