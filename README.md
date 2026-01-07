@@ -33,6 +33,6 @@ Dieses Repository enthält Beispiele und Tests für die Ansteuerung des PicoScop
 git clone https://github.com/picotech/picosdk-ni-labview-examples.git
 ```
 ## Jetzt kannst du die Labview Applikation ausführen!
-Bei ersten start muss man gewisse dateien dem Programm "zeigen", dies dient zur orientierung für die file struktur. Nach 2-3 Dateien sollte es aber den rest von alleine finden!
-Bitte auf dein Memory schauen! Bei großen Datenmengen die vom Oszi auf deinen PC übertragen werden kann schnell dein RAM vollaufen!
+- Bei ersten start muss man gewisse dateien dem Programm "zeigen", dies dient zur orientierung für die file struktur. Nach 2-3 Dateien sollte es aber den rest von alleine finden!
+- Bitte auf dein Memory schauen! Bei großen Datenmengen die vom Oszi auf deinen PC übertragen werden kann schnell dein RAM vollaufen!
 Viel Spaß beim Verzeweifeln :)
