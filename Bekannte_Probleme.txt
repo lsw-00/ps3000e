@@ -1,0 +1,17 @@
+Zeit Fehler an das er kein Gerät erkennt?
+--> Git repo ist noch nicht auf neustem stand. Deshalb muss man manuell die passenden dll Dateien aus dem neusten SDK laden!
+	--> Geh in die SubVI die Probleme macht und mach doppelklick auf diese gelben viereckigen dinger. Dort dann den Pfad der jeweils neuen dll anpassen.
+	--> Neue dll Dateien sind im SDK meist in sowas in der rihtung von: C:\Program Files\Pico Technology\SDK\lib hinterlegt(never mind, das SDK ist stand 07.01.2025 noch nicht auf passendem stand. man muss es aus der Pico Scope 7 T&M Software rausholen, die ist auf stand. Funktinsprinzp aber gleich wie mit SDK, nur hier eben Pico Scope 7 T&M).
+
+Konkretes Beispiel:
+Error API function call psospaOpenUnit
+PICO_ADC_TYPE_ERROR
+The ADC on board the device has not been correctly identified.
+Error code 346 Decimal
+0000015A Hex
+
+--> geh in die folgende subVi: psospaOpen
+--> Dann auf die CallLibraryFunctionNodes doppelklick
+--> Path zu neuer psospa auswählen. Bei mir ist es idr in Treibern und SubVis drinnen.
+--> Ja die nderen Nodes bekommen dann automatisch auch den neuen pfad zugeordnet, aber das klappt warum auch immer noch nicht richtig, also muss bei den anderen 2 Nodes auch nochmal manuell der Pfad eingetragen werden.
+--> Sollte jetzt ausführbar sein :) Wenn nicht --> Shit
