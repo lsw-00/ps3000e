@@ -31,3 +31,6 @@ Dieses Repository enthält Beispiele und Tests für die Ansteuerung des PicoScop
 
 ```bash
 git clone https://github.com/picotech/picosdk-ni-labview-examples.git
+```
+## Jetzt kannst du die Labview Applikation ausführen!
+Viel Spaß beim Verzeweifeln :)
