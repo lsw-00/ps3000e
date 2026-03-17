@@ -15,3 +15,9 @@ Error code 346 Decimal
 --> Path zu neuer psospa auswählen. Bei mir ist es idr in Treibern und SubVis drinnen.
 --> Ja die nderen Nodes bekommen dann automatisch auch den neuen pfad zugeordnet, aber das klappt warum auch immer noch nicht richtig, also muss bei den anderen 2 Nodes auch nochmal manuell der Pfad eingetragen werden.
 --> Sollte jetzt ausführbar sein :) Wenn nicht --> Shit
+
+
+
+Neues Problem:
+--> Zeigt keine anständigen Werte
+Lösung: ?
